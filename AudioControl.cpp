@@ -35,10 +35,10 @@ namespace implementation {
 static int sContextToBusMap[] = {
     -1,     // INVALID
      0,     // MUSIC_CONTEXT
-     2,     // NAVIGATION_CONTEXT
-     2,     // VOICE_COMMAND_CONTEXT
+     1,     // NAVIGATION_CONTEXT
+     1,     // VOICE_COMMAND_CONTEXT
      1,     // CALL_RING_CONTEXT
-     1,     // CALL_CONTEXT
+     2,     // CALL_CONTEXT
      1,     // ALARM_CONTEXT
      1,     // NOTIFICATION_CONTEXT
      1,     // SYSTEM_SOUND_CONTEXT
